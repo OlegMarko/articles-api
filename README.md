@@ -1,24 +1,10 @@
-# README
+# Rails REST articles API 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Run this app in local
+  - cd /your_work_path
+  - git clone https://github.com/OlegMarko/articles-api.git
+  - cd articles-api
+  - bundle install
+  - rake db:migrate
+  - rails s
+  - testing with Postman makes API http://localhost:3000/api/v1/articles GET POST PUT DELETE
